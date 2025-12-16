@@ -3,18 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the Zone in S.T.A.L.K.E.R: Shadow of Chernobyl, a thrilling first-person shooter game set in a post-apocalyptic world filled with danger, mutants, and anomalies">
+    <meta name="keywords" content="S.T.A.L.K.E.R, Shadow of Chernobyl, Chernobyl, video game, stalker game, radiation, mutants, anomalies, artifacts">
+    <meta name="author" content="GSC Game World">
     <title>S.T.A.L.K.E.R Shadow of Chernobyl</title>
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./icons/favicon">
+    <link rel="apple-touch-icon" sizes="60x60" href="./icons/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./icons/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./icons/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./icons/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./icons/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./icons/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./icons/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./icons/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./icons/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./icons/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./icons/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 </head>
 <body>
     <header class="header">
-        <a href="/" class="header__logo">
-            <img src="./icons/Titch-Ix-Game-STALKER.64.png" alt="" class="header__logo--image">
-            <h1 class="header__title--main"></h1>
+        <a href="./index.html" class="header__logo">
+            <img src="./icons/Titch-Ix-Game-STALKER.64.png" alt="Logo of a post-apocalyptic survival game" class="header__logo--image">
+            <h1 class="header__title title title--lg"></h1>
         </a>
         <nav class="header__nav-menu">
             <ul class="header__list">
                 <li class="header__item">
-                    <a href="/" class="header__link-btn btn btn--gray-bg btn--yellow-text">Home</a>
+                    <a href="./index.html" class="header__link-btn btn btn--gray-bg btn--yellow-text">Home</a>
                 </li>
                 <li class="header__item">
                     <a href="/" class="header__link-btn btn btn--gray-bg btn--yellow-text">About Us</a>
@@ -24,115 +45,113 @@
     </header>
 
     <main class="main">
-
-        <section class="hero-section">
-            <h2 class="hero-section__title title">S.T.A.L.K.E.R Shadow of Chernobyl</h2>
-            <p class="hero-section__text">In 2006, a second disaster occurred that changed the area around the Chernobyl Nuclear Power Plant. The Zone became home to mutants, anomalies, and artifacts. Stalkers—lone individuals who risk their lives to venture into the Zone in search of wealth and fame—are the ones who explore it. You are one of them. Uncover the secrets of the Zone and learn the truth about the disaster.
+        <section class="hero">
+            <h2 class="hero__title title">S.T.A.L.K.E.R Shadow of Chernobyl</h2>
+            <p class="hero__text text text--gray">In 2006, a second disaster occurred that changed the area around the Chernobyl Nuclear Power Plant. The Zone became home to mutants, anomalies, and artifacts. Stalkers—lone individuals who risk their lives to venture into the Zone in search of wealth and fame—are the ones who explore it. You are one of them. Uncover the secrets of the Zone and learn the truth about the disaster.
             </p>
-            <img src="./img/main-img.jpg" alt="" class="hero-section__main-picture" width="960" height="540">
+            <img class="hero__main-picture" src="./img/main-img.jpg" alt="Preview of a survival game set in the Chernobyl Exclusion Zone" width="960" height="540">
 
-            <aside class="hero-section__aside">
-                <h2 class="hero-section__title--aside title">Game Features</h2>
-                <ul class="hero-section__list">
-                    <li class="hero-section__item">Unique atmosphere of the Zone</li>
-                    <li class="hero-section__item">Realistic ballistics</li>
-                    <li class="hero-section__item">Dangerous anomalies</li>
-                    <li class="hero-section__item">Valuable artifacts</li>                        <li class="hero-section__item">Non-linear storyline</li>
+            <aside class="hero__features">
+                <h2 class="hero__features--title title">Game Features</h2>
+                <ul class="hero__feature--list">
+                    <li class="hero__feature--item text text--gray">Unique atmosphere of the Zone</li>
+                    <li class="hero__feature--item text text--gray">Realistic ballistics</li>
+                    <li class="hero__feature--item text text--gray">Dangerous anomalies</li>
+                    <li class="hero__feature--item text text--gray">Valuable artifacts</li>
+                    <li class="hero__feature--item text text--gray">Non-linear storyline</li>
                 </ul>
             </aside>
 
-            <article class="hero-section__article">
-                <div class="article__wrapper">
-                    <h2 class="hero-section__title--article title">Survival</h2>
-                    <p class="hero-section__text--article">Radiation, hunger, and dangerous mutants are your main enemies in the Zone</p>
+            <article class="hero__article">
+                <div class="hero__article--wrapper">
+                    <h2 class="hero__article--title title">Survival</h2>
+                    <p class="hero__article--subtitle text text--gray">Radiation, hunger, and dangerous mutants are your main enemies in the Zone</p>
                 </div>
-                <div class="article__wrapper">
-                    <h2 class="hero-section__title--article title">Exploration</h2>
-                    <p class="hero-section__text--article">Explore abandoned locations and discover the secrets of the Zone</p>
+                <div class="hero__article--wrapper">
+                    <h2 class="hero__article--title title">Exploration</h2>
+                    <p class="hero__article--subtitle text text--gray">Explore abandoned locations and discover the secrets of the Zone</p>
                 </div>
-                <div class="article__wrapper">
-                    <h2 class="hero-section__title--article title">Artifacts</h2>
-                    <p class="hero-section__text--article">Search for rare artifacts in dangerous anomalous fields</p>
+                <div class="hero__article--wrapper">
+                    <h2 class="hero__article--title title">Artifacts</h2>
+                    <p class="hero__article--subtitle text text--gray">Search for rare artifacts in dangerous anomalous fields</p>
                 </div>
             </article>
         </section>
-
         <section class="equipmen">
             <h2 class="equipmen__title title">Weapons and Equipment in the Game</h2>
             <table class="equipmen__table table">
                 <thead class="table__header">
                     <tr class="table__row">
-                        <th class="table__main-column">Name</th>
-                        <th class="table__main-column">Type</th>
-                        <th class="table__main-column">Damage</th>
-                        <th class="table__main-column">Caliber</th>
-                        <th class="table__main-column">Description</th>
+                        <th class="table__main-column text text--gray text--bold">Name</th>
+                        <th class="table__main-column text text--gray text--bold">Type</th>
+                        <th class="table__main-column text text--gray text--bold">Damage</th>
+                        <th class="table__main-column text text--gray text--bold">Caliber</th>
+                        <th class="table__main-column text text--gray text--bold">Description</th>
                     </tr>
                 </thead>
-
                 <tbody class="table__content">
                     <tr class="table__row">
-                        <td class="table__column">AK-74</td>
-                        <td class="table__column">Assault Rifle</td>
-                        <td class="table__column">40</td>
-                        <td class="table__column">5.45x39</td>
-                        <td class="table__column">Reliable assault rifle</td>
+                        <td class="table__column title">AK-74</td>
+                        <td class="table__column text text--gray">Assault Rifle</td>
+                        <td class="table__column text text--gray">40</td>
+                        <td class="table__column text text--gray">5.45x39</td>
+                        <td class="table__column text text--gray">Reliable assault rifle</td>
                     </tr>
                     <tr class="table__row">
-                        <td class="table__column">PM (Makarov)</td>
-                        <td class="table__column">Pistol</td>
-                        <td class="table__column">20</td>
-                        <td class="table__column">9x18</td>
-                        <td class="table__column">Lightweight and compact pistol</td>
+                        <td class="table__column title">PM (Makarov)</td>
+                        <td class="table__column text text--gray">Pistol</td>
+                        <td class="table__column text text--gray">20</td>
+                        <td class="table__column text text--gray">9x18</td>
+                        <td class="table__column text text--gray">Lightweight and compact pistol</td>
                     </tr>
                     <tr class="table__row">
-                        <td class="table__column">SVD</td>
-                        <td class="table__column">Sniper Rifle</td>
-                        <td class="table__column">75</td>
-                        <td class="table__column">7.62x54R</td>
-                        <td class="table__column">Long-range rifle</td>
+                        <td class="table__column title">SVD</td>
+                        <td class="table__column text text--gray">Sniper Rifle</td>
+                        <td class="table__column text text--gray">75</td>
+                        <td class="table__column text text--gray">7.62x54R</td>
+                        <td class="table__column text text--gray">Long-range rifle</td>
                     </tr>
                     <tr class="table__row">
-                        <td class="table__column">Sawed-off Shotgun</td>
-                        <td class="table__column">Shotgun</td>
-                        <td class="table__column">85</td>
-                        <td class="table__column">12 gauge</td>
-                        <td class="table__column">Powerful close-range weapon</td>
+                        <td class="table__column title">Sawed-off Shotgun</td>
+                        <td class="table__column text text--gray">Shotgun</td>
+                        <td class="table__column text text--gray">85</td>
+                        <td class="table__column text text--gray">12 gauge</td>
+                        <td class="table__column text text--gray">Powerful close-range weapon</td>
                     </tr>
                     <tr class="table__row">
-                        <td class="table__column">RPG-7</td>
-                        <td class="table__column">Grenade Launcher</td>
-                        <td class="table__column">200</td>
-                        <td class="table__column">Rocket</td>
-                        <td class="table__column">Anti-tank weapon</td>
+                        <td class="table__column title">RPG-7</td>
+                        <td class="table__column text text--gray">Grenade Launcher</td>
+                        <td class="table__column text text--gray">200</td>
+                        <td class="table__column text text--gray">Rocket</td>
+                        <td class="table__column text text--gray">Anti-tank weapon</td>
                     </tr>
                     <tr class="table__row">
-                        <td class="table__column">"Echo" Detector</td>
-                        <td class="table__column">"Echo" Detector</td>
-                        <td class="table__column">-</td>
-                        <td class="table__column">-</td>
-                        <td class="table__column">Anomaly detection</td>
+                        <td class="table__column title">"Echo" Detector</td>
+                        <td class="table__column text text--gray">"Echo" Detector</td>
+                        <td class="table__column text text--gray">-</td>
+                        <td class="table__column text text--gray">-</td>
+                        <td class="table__column text text--gray">Anomaly detection</td>
                     </tr>
                     <tr class="table__row">
-                        <td class="table__column">Gas Mask</td>
-                        <td class="table__column">Protection</td>
-                        <td class="table__column">-</td>
-                        <td class="table__column">-</td>
-                        <td class="table__column">Protection against radiation and gases</td>
+                        <td class="table__column title">Gas Mask</td>
+                        <td class="table__column text text--gray">Protection</td>
+                        <td class="table__column text text--gray">-</td>
+                        <td class="table__column text text--gray">-</td>
+                        <td class="table__column text text--gray">Protection against radiation and gases</td>
                     </tr>
                 </tbody>
             </table>
         </section>
 
-        <section class="trailer">
-            <h2 class="trailer__title title">Game Trailer</h2>
-            <iframe width="412" height="334" src="https://www.youtube.com/embed/hS1N4MjvkUo" title="Stalker: Shadow of Chornobyl - Official Enhanced Edition Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <p class="trailer__text">Dive into the dark atmosphere of the Chernobyl Exclusion Zone in the legendary game S.T.A.L.K.E.R.: Shadow of Chernobyl</p>
 
-            <aside class="aside">
+        <section class="game-promo">
+            <h2 class="game-promo__title title">Game Trailer</h2>
+            <iframe class="game-promo__trailer" width="412" height="334" src="https://www.youtube.com/embed/hS1N4MjvkUo" title="Stalker: Shadow of Chornobyl - Official Enhanced Edition Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p class="game-promo__subtitle text text--gray">Dive into the dark atmosphere of the Chernobyl Exclusion Zone in the legendary game S.T.A.L.K.E.R.: Shadow of Chernobyl</p>
+            <aside class="game-promo__form">
                 <form action="" class="form">
                     <fieldset class="form__fieldset">
-                        <legend class="form__legend">Join the Stalker Community</legend>
+                        <legend class="form__legend title">Join the Stalker Community</legend>
 
                         <label for="name" class="form__label">Name:</label>
                         <input type="text" id="name" name="name" class="form__input">
@@ -147,15 +166,38 @@
                         <input type="text" id="message" name="message" class="form__input">
                     </fieldset>
                 </form>
-                <div class="button-wrap">
+                <div class="game-promo-section__button-wrap button-wrap">
                     <button class="button-wrap__btn btn btn--yellow-bg btn--gray-text" type="submit">Send</button>
                     <button class="button-wrap__btn btn btn--gray-bg btn--yellow-text" type="reset">Cancel</button>
                 </div>
             </aside>
         </section>
-
-
-
+        <section class="game-gallery">
+            <h2 class="game-gallery__title title">Screenshots from the Zone</h2>
+            <img src="./img/image-1.jpg" alt="In-game screenshot showcasing the environment and gameplay" class="game-gallery__image">
+            <img src="./img/image-2.jpg" alt="In-game screenshot showcasing the environment and gameplay" class="game-gallery__image">
+            <img src="./img/image-3.jpg" alt="In-game screenshot showcasing the environment and gameplay" class="game-gallery__image">
+            <img src="./img/image-4.jpg" alt="In-game screenshot showcasing the environment and gameplay" class="game-gallery__image">
+            <img src="./img/main-img.jpg" alt="In-game screenshot showcasing the environment and gameplay" class="game-gallery__image">
+        </section>
     </main>
+
+    <footer class="footer">
+        <h2 class="footer__title title">Map of the Zone</h2>
+        <iframe class="footer__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d311.98620558324393!2d30.22186199904621!3d51.27635040431956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472a8f00e898abcf%3A0x14bcceabdbfd5d2c!2z0KfQtdGA0L3QvtCx0YvQu9GMLCDQmtC40LXQstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCDQo9C60YDQsNC40L3QsA!5e0!3m2!1sru!2srs!4v1765894693930!5m2!1sru!2srs" width="1440" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3 class="footer__subtitle title">Stay updated with the news:</h3>
+        <div class="icon-wrap">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+        </div>
+        <small class="footer__copyright title">&copy; 2007 GSC Game World. All rights reserved</small>
+        <p class="footer__message text text--gray">Good hunting, stalker!</p>
+    </footer>
+
+    <!-- FOR ICONS -->
+    <script src="https://kit.fontawesome.com/174b9d32bf.js" crossorigin="anonymous"></script>
 </body>
 </html>
